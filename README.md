@@ -12,7 +12,7 @@
 3. Easy to test
 
 # Ex 2 : Is Java compiled or interpreted, or both?
-### Java is a hybrid
+### Java is a hybrid, compiled to mid-language called bytecode and later it is interpreted 
 
 # Ex 3: Pseudocode currency converter
   1. START
