@@ -10,3 +10,14 @@
 1. cross-platform, only interpreter needed 
 2. less secure because if you need to send your program you send a copy of your code
 3. Easy to test
+
+# Ex 2 : Is Java compiled or interpreted, or both?
+### Java is a hybrid
+
+# Ex 3: Pseudocode currency converter
+  1. START
+  2. Dollars <-- GET
+  3. BitCoinConst <-- 0.000022
+  4. ConvertedValue <-- Dollars * BitCoinConst
+  5. PRINT ConvertedValue
+  6. END
