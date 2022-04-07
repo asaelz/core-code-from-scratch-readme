@@ -21,3 +21,34 @@
   4. ConvertedValue <-- Dollars * BitCoinConst
   5. PRINT ConvertedValue
   6. END
+# Wednesday - third day - week #1
+## Exercise 1 ==> Your date of birth in the matrix? 
+### Explain to your *team* how to convert their birth year into binary code 
+At first place, to convert a decimal number (base 10) into a binary number (base 2) you need to know the power of 2. 
+***
+## 2 to the power of n (multiplies by itself n times). 
+once learned that, let see power of 2 up to 11 
+| 2^1    | 2^2  | 2^3 | 2^4 | 2^5 | 2^6 | 2^7  | 2^8 | 2^9 | 2^10 | 2^11 |              
+| ------ |:----:| ---:|:---:| ---:| --- |:----:| ---:|:---:| ----:| ----:|
+| 2      | 4    | 8   |  16 | 32  | 64  | 128  | 256 | 512 | 1024 | 2048 |
+
+now we learn how to convert a birth year into binary number with the practice: Let's see 1996
+### substract method 
+In this example we will use the substract method, we already have a number *1996*
+1. First step is find the closest number of 1996, *2048* exceed our target number so we will start with *1024*
+2. Substract *1024* to *1996* that's equal to *972* and we continue substracting but now with the result *972*
+3. now the closest number of *972* is *512* so we only need to substract *972 - 512* and that's equal to *460*
+4. for *460* the closest number is *256* and that's *204*
+5. we do the same for *204*, the closest number is *128* and the result of substracting is *76*
+6. now *76* - *64* and the result will be > 12
+7. we almost done, *12* - *8* = *4*
+8. *4* - *4* is equal to *0*
+
+### once do it that we take every number used for substracting our target number and a 1 if we used it and 0 if we don't
+| 2^1    | 2^2  | 2^3 | 2^4 | 2^5 | 2^6 | 2^7  | 2^8 | 2^9 | 2^10 |           
+| ------ |:----:| ---:|:---:| ---:| --- |:----:| ---:|:---:| ----:|
+| 2      | 4    | 8   |  16 | 32  | 64  | 128  | 256 | 512 | 1024 |
+| 0      | 1    | 1   |  0  | 0   | 1   | 1    | 1   | 1   | 1    |
+
+we read the number from highest to lower, so *1996* in binary is equal to *11111001100* if you want to check your operation, add all the numbers used 
+*1024 + 512 + 256 + 128 + 64 + 8 + 4 = 1996* 
