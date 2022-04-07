@@ -44,11 +44,66 @@ In this example we will use the substract method, we already have a number *1996
 7. we almost done, *12* - *8* = *4*
 8. *4* - *4* is equal to *0*
 
-### once do it that we take every number used for substracting our target number and a 1 if we used it and 0 if we don't
+### once we do it we take every number used for substracting our target number and add a 1 if we used it and 0 if we didn't
 | 2^1    | 2^2  | 2^3 | 2^4 | 2^5 | 2^6 | 2^7  | 2^8 | 2^9 | 2^10 |           
 | ------ |:----:| ---:|:---:| ---:| --- |:----:| ---:|:---:| ----:|
 | 2      | 4    | 8   |  16 | 32  | 64  | 128  | 256 | 512 | 1024 |
 | 0      | 1    | 1   |  0  | 0   | 1   | 1    | 1   | 1   | 1    |
 
-we read the number from highest to lower, so *1996* in binary is equal to *11111001100* if you want to check your operation, add all the numbers used 
+we read the number from highest to lowest, so *1996* in binary is equal to *11111001100* if you want to check your operation, add all the numbers used 
 *1024 + 512 + 256 + 128 + 64 + 8 + 4 = 1996* 
+
+# MIPS
+## ex 2 part 1 ==> Create a program that adds any two given numbers provided by the user
+```
+ .data
+        FirstInput: .asciiz "\nPls Insert the first number: "
+	SecondInput: .asciiz "\nPls Insert the second number: "
+	Result: .asciiz "\nThe Result is: "
+	   
+  .text
+        main:
+              li $v0, 4
+              la $a0, FirstInput
+              syscall
+
+              li $v0, 5
+              syscall
+              
+              move $t0, $v0
+              
+              li $v0, 4
+              la $a0, SecondInput
+              syscall
+
+              li $v0, 5
+              syscall
+              
+              move $t1, $v0
+              
+              add $t2, $t0, $t1
+              
+              li $v0, 4
+              la $a0, Result
+              syscall
+              
+              li $v0, 1
+              move $a0, $t2
+              syscall
+
+```
+## ex 2 part 1 ==> Create a program that displays your name
+
+```
+ .data
+        Myname: .asciiz "\nHi, My name is Abner :D "
+	   
+  .text
+        main:
+              li $v0, 4
+              la $a0, Myname
+              syscall
+
+
+```
+
