@@ -1,6 +1,6 @@
 # Interpreted And Compiled Programming Languages
 ## first of all ==> what are they? 
-### in short a compiled programming language required a program called *compiler* the fuction of a compiler is convert the whole code into machine languague or binary code. instead a interpreted language is not directly convert into machine language otherwise is executed line by line for an *interpreter*
+### in short a compiled programming language requires a program called *compiler* the fuction of a compiler is convert the whole code into machine languague or binary code. instead a interpreted language is not directly convert into machine language otherwise is executed line by line for an *interpreter*
 
 #Advantages 
 ### Compiled
