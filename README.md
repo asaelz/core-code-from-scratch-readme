@@ -1,7 +1,7 @@
 ![alt text](https://uploads-ssl.webflow.com/5eb2f56932c3562feab232e3/5f73550d00249e7e96c9f3de_Logo.png 'corecodeio')
 # code-from-scratch
 
-
+# Tuesday - week #1
 # Interpreted And Compiled Programming Languages
 ## first of all ==> what are they? 
 ### in short a compiled programming language requires a program called *compiler* the fuction of a compiler is convert the whole code into machine languague or binary code. instead a interpreted language is not directly convert into machine language otherwise is executed line by line for an *interpreter*
