@@ -1,4 +1,3 @@
-![alt text](https://uploads-ssl.webflow.com/5eb2f56932c3562feab232e3/5f73550d00249e7e96c9f3de_Logo.png 'corecodeio')
 # code-from-scratch
 
 # Tuesday - week #1
@@ -174,7 +173,7 @@ else if (n < 1000 && n !=100 && n % 10 == 0 ) {
 ![alt text](images/logo.png)
 ### introduction to *codewars* 
 
-### Kata 1. Multiply
+### Kata 1. Multiply **:muscle:**
 ```html
 <script>
 function multiply(a, b){
