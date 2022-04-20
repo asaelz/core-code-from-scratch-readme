@@ -178,14 +178,78 @@ function multiply(a, b){
 ### Kata 2. ASCII Total
 ### You'll be given a string, and have to return the sum of all characters as an int. 
 The function should be able to handle all ASCII characters.
+### example: uniTotal("a") == 97 uniTotal("aaa") == 291
 ```html
 <script>
-function uniTotal (string) {
+function uniTotal(string) {
  var suma = 0; 
  for (var i= 0; i < string.length; i++) {
    suma += string.charCodeAt(i);
  }
 return suma;
  }
+</script>
+```
+
+### Kata 3. Char From ASCII Value
+### Write a function get_char() / getChar() which takes a number and 
+returns the corresponding ASCII char for that value.
+### example: get_char(65) should return 'A'
+```html
+<script>
+function getChar(c){
+ return String.fromCharCode(c)
+}
+
+getChar(5);
+</script>
+```
+
+### Kata 4. Binary Addition
+### Implement a function that adds two numbers together and returns their sum in binary. 
+The conversion can be done before, or after the addition.
+*The binary number returned should be a string.*
+### example: 1, 1 --> "10" (1 + 1 = 2 in decimal or 10 in binary)
+```html
+<script>
+function addBinary(a,b) {
+  return (a + b).toString(2);
+}
+</script>
+```
+
+
+### Kata 5. Student's Final Grade
+### Create a function finalGrade, which calculates the final grade of a 
+student depending on two parameters: a grade for the exam and a number of completed projects.
+
+###This function should take two arguments: exam - grade for exam (from 0 to 100); projects - 
+number of completed projects (from 0 and above)
+
+*This function should return a number (final grade). There are four types of final grades:*
+
+1. 100, if a grade for the exam is more than 90 or if a number of completed projects more than 10.
+2. 90, if a grade for the exam is more than 75 and if a number of completed projects is minimum 5.
+3. 75, if a grade for the exam is more than 50 and if a number of completed projects is minimum 2.
+4. 0, in other cases
+### example: 100, 12 --> 100
+```html
+<script>
+function finalGrade (exam, projects) {
+  if (exam > 90 || projects > 10)
+    {
+      return 100;
+    } else if(exam > 75 && projects >= 5)
+      {
+        return 90;
+      } else if(exam > 50 && projects >= 2)
+        {
+          return 75;
+        }
+  else{
+    return 0;
+  }
+  
+}
 </script>
 ```
