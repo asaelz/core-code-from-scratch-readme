@@ -164,6 +164,8 @@ else if (n < 1000 && n !=100 && n % 10 == 0 ) {
 # Week 2
 ## Week Challenges (Tuesday)
 ![alt text](![image](https://user-images.githubusercontent.com/10038162/164127472-d01c0962-ddd4-4ebb-a7ec-e9931085b5a1.png) 'codewars')
+![alt text](images/logo.png)
+
 
 ### Kata 1. Multiply
 ```
