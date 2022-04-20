@@ -161,15 +161,31 @@ else if (n < 1000 && n !=100 && n % 10 == 0 ) {
 }
 ```
 
-# Week 2
+# Week 2 - JavaScript
 ## Week Challenges (Tuesday)
-![alt text](![image](https://user-images.githubusercontent.com/10038162/164127472-d01c0962-ddd4-4ebb-a7ec-e9931085b5a1.png) 'codewars')
-![alt text](images/logo.png)
-
+![alt text](images/logo.png =50x50)
+### introduction to *codewars* 
 
 ### Kata 1. Multiply
-```
+```html
+<script>
 function multiply(a, b){
  return a * b
 }
+</script>
+```
+
+### Kata 2. ASCII Total
+### You'll be given a string, and have to return the sum of all characters as an int. 
+The function should be able to handle all ASCII characters.
+```html
+<script>
+function uniTotal (string) {
+ var suma = 0; 
+ for (var i= 0; i < string.length; i++) {
+   suma += string.charCodeAt(i);
+ }
+return suma;
+ }
+</script>
 ```
