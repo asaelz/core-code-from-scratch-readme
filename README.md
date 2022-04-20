@@ -182,7 +182,7 @@ function multiply(a, b){
 </script>
 ```
 
-### Kata 2. ASCII Total
+### Kata 2. ASCII Total :ok_hand:
 ### You'll be given a string, and have to return the sum of all characters as an int. 
 The function should be able to handle all ASCII characters.
 ### example: uniTotal("a") == 97 uniTotal("aaa") == 291
@@ -198,7 +198,7 @@ return suma;
 </script>
 ```
 
-### Kata 3. Char From ASCII Value
+### Kata 3. Char From ASCII Value :+1:
 ### Write a function get_char() / getChar() which takes a number and 
 returns the corresponding ASCII char for that value.
 ### example: get_char(65) should return 'A'
@@ -212,7 +212,7 @@ getChar(5);
 </script>
 ```
 
-### Kata 4. Binary Addition
+### Kata 4. Binary Addition :muscle:
 ### Implement a function that adds two numbers together and returns their sum in binary. 
 The conversion can be done before, or after the addition.
 *The binary number returned should be a string.*
@@ -226,7 +226,7 @@ function addBinary(a,b) {
 ```
 
 
-### Kata 5. Student's Final Grade
+### Kata 5. Student's Final Grade :sparkles:
 ### Create a function finalGrade, which calculates the final grade of a 
 student depending on two parameters: a grade for the exam and a number of completed projects.
 
