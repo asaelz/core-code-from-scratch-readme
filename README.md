@@ -260,3 +260,43 @@ function finalGrade (exam, projects) {
 }
 </script>
 ```
+# Week 2 - JavaScript
+## Week Challenges (Wednesday)
+2. Twice As Old 
+Your function takes two arguments:
+*current father's age (years)
+current age of his son (years)*
+Сalculate how many years ago the father was twice as old as his son (or in how many years he will be twice as old).
+```html
+<script>
+function twiceAsOld(dadYearsOld, sonYearsOld) {
+  Ads = sonYearsOld * 2;
+  if (Ads > dadYearsOld) {
+    return Ads - dadYearsOld;
+  } else {
+    return dadYearsOld - Ads;
+  }
+}
+</script>
+```
+4. Fake Binary
+*Given a string of digits, you should replace any digit below 5 with '0' 
+and any digit 5 and above with '1'. Return the resulting string.
+
+Note: input will never be an empty string*
+```html
+<script>
+function fakeBin(x){
+var xs ="";
+for (var i = 0; i < x.length; i++) { 
+if (x.charAt(i) < 5) {
+  xs += "0"
+} else {
+  xs += "1";
+}
+}
+  return xs;
+}
+
+fakeBin("38");	
+</script>
