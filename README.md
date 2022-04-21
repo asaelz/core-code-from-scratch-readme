@@ -263,11 +263,13 @@ function finalGrade (exam, projects) {
 # Week 2 - JavaScript
 ## Week Challenges (Wednesday)
 1. Holiday VIII - Duty Free
-*The purpose of this kata is to work out just how many bottles of duty free whiskey you would have to buy such that the saving over the normal high street price would effectively cover the cost of your holiday.
+*The purpose of this kata is to work out just how many bottles of duty free whiskey you would have to buy 
+such that the saving over the normal high street price would effectively cover the cost of your holiday.
 
 You will be given the high street price (normPrice), the duty free discount (discount) and the cost of the holiday.
 
-For example, if a bottle cost £10 normally and the discount in duty free was 10%, you would save £1 per bottle. If your holiday cost £500, the answer you should return would be 500.
+For example, if a bottle cost £10 normally and the discount in duty free was 10%, you would save £1 per bottle. 
+If your holiday cost £500, the answer you should return would be 500.
 
 All inputs will be integers. Please return an integer. Round down.*
 ```html
@@ -284,8 +286,7 @@ function dutyFree(normPrice, discount, hol){
 
 2. Twice As Old 
 Your function takes two arguments:
-*current father's age (years)
-current age of his son (years)*
+*current father's age (years) current age of his son (years)*
 Сalculate how many years ago the father was twice as old as his son (or in how many years he will be twice as old).
 ```html
 <script>
@@ -299,6 +300,7 @@ function twiceAsOld(dadYearsOld, sonYearsOld) {
 }
 </script>
 ```
+
 4. Fake Binary
 *Given a string of digits, you should replace any digit below 5 with '0' 
 and any digit 5 and above with '1'. Return the resulting string.
