@@ -190,7 +190,7 @@ The function should be able to handle all ASCII characters.
 <script>
 function uniTotal(string) {
  var suma = 0; 
- for (var i= 0; i < string.length; i++) {
+ for (let i= 0; i < string.length; i++) {
    suma += string.charCodeAt(i);
  }
 return suma;
@@ -275,9 +275,9 @@ All inputs will be integers. Please return an integer. Round down.*
 ```html
 <script>
 function dutyFree(normPrice, discount, hol){
-  var Descuento = ((normPrice * discount) / 100);
-  var Difc = hol / Descuento;
-  var Ans = Math.floor(Dif);
+  let Descuento = ((normPrice * discount) / 100);
+  let Difc = hol / Descuento;
+  let Ans = Math.floor(Dif);
   
   return Ans;
 }
@@ -291,7 +291,7 @@ Your function takes two arguments:
 ```html
 <script>
 function twiceAsOld(dadYearsOld, sonYearsOld) {
-  Ads = sonYearsOld * 2;
+  let Ads = sonYearsOld * 2;
   if (Ads > dadYearsOld) {
     return Ads - dadYearsOld;
   } else {
@@ -310,7 +310,7 @@ Note: input will never be an empty string*
 ```html
 <script>
 function fakeBin(x){
-var xs ="";
+let xs ="";
 for (var i = 0; i < x.length; i++) { 
 if (x.charAt(i) < 5) {
   xs += "0"
