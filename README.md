@@ -1,11 +1,12 @@
-# code-from-scratch
+<h1 align="center">Bootcamp: Code from Scratch 🚀</h1>
 
-# Tuesday - week #1
-# Interpreted And Compiled Programming Languages
+## 1. introduction to programming and Javascript
+## Week 1: Tuesday 
+## Interpreted And Compiled Programming Languages
 ## first of all ==> what are they? 
 ### in short a compiled programming language requires a program called *compiler* the fuction of a compiler is convert the whole code into machine languague or binary code. instead a interpreted language is not directly convert into machine language otherwise is executed line by line for an *interpreter*
 
-#Advantages 
+## Advantages 
 ### Compiled
 1. Compiled languages are faster because the *compiler* read the whole code and covert it into machine languague inside the same machine.
 2. The code is secure because you only send a binary file (executable version of your code that only can be read for the machine)
@@ -14,17 +15,18 @@
 2. less secure because if you need to send your program you send a copy of your code
 3. Easy to test
 
-# Ex 2 : Is Java compiled or interpreted, or both?
+## Ex 2 : Is Java compiled or interpreted, or both?
 ### Java is a hybrid, compiled to mid-language called bytecode and later it is interpreted 
 
-# Ex 3: Pseudocode currency converter
+## Ex 3: Pseudocode currency converter
   1. START
   2. Dollars <-- GET
   3. BitCoinConst <-- 0.000022
   4. ConvertedValue <-- Dollars * BitCoinConst
   5. PRINT ConvertedValue
   6. END
-# Wednesday - third day - week #1
+
+## Wednesday - third day - week #1
 ## Exercise 1 ==> Your date of birth in the matrix? 
 ### Explain to your *team* how to convert their birth year into binary code 
 At first place, to convert a decimal number (base 10) into a binary number (base 2) you need to know the power of 2. 
@@ -168,7 +170,7 @@ else if (n < 1000 && n !=100 && n % 10 == 0 ) {
 </script>
 ```
 
-# Week 2 - JavaScript
+## 2. JavaScript
 ## Week Challenges (Tuesday)
 ![alt text](images/logo.png)
 ### introduction to *codewars* 
@@ -260,8 +262,8 @@ function finalGrade (exam, projects) {
 }
 </script>
 ```
-# Week 2 - JavaScript
-## Week Challenges (Wednesday)
+## 2. JavaScript
+## Week 2 Challenges (Wednesday)
 ### Kata 1.Holiday VIII - Duty Free
 *The purpose of this kata is to work out just how many bottles of duty free whiskey you would have to buy 
 such that the saving over the normal high street price would effectively cover the cost of your holiday.
@@ -300,7 +302,33 @@ function twiceAsOld(dadYearsOld, sonYearsOld) {
 }
 </script>
 ```
+### Kata 3. Valid Spacing
+Your task is to write a function called valid_spacing() which checks if a string has valid spacing. 
+The function should return either true or false.
 
+*the definition of valid spacing is one space between words*
+```html
+<script>
+function validSpacing(s) {
+    if(/^[\s]/.test(s) == true || /[\s]$/.test(s) == true) { 
+     return false;
+  }
+  
+  for(let i = 0; i < s.length; i++) {
+    if(s.charAt(i) === ' '){ 
+      if(i != 0 && s.charAt(i-1) === ' ') {
+        return false;
+      }
+      if(i != (s.length - 1) && s.charAt(i+1) === ' ') {
+        return false;
+      }
+    }
+  }
+  
+  return true; 
+}
+</script>
+```
 
 ### Kata 4. Fake Binary
 *Given a string of digits, you should replace any digit below 5 with '0' 
@@ -323,3 +351,77 @@ if (x.charAt(i) < 5) {
 
 fakeBin("38");	
 </script>
+```
+
+## Week 2 Challenges (Thursday)
+*Exclamation marks series #2: 
+Remove all exclamation marks from the end of sentence*
+```html
+<script>
+function remove (str) {  
+  const Regex = /!*$/g;
+  return str.replace(Regex,'');
+}
+</script>
+```
+*Create a function called shortcut to remove 
+the lowercase vowels (a, e, i, o, u ) in a given string.*
+ex: "hello"     -->  "hll"
+```html
+<script>
+function shortcut (string) {
+  return string.replace(/[aeiou*]/g, '');
+}
+</script>
+```
+
+*Rock Paper Scissors 
+Let's play! You have to return which player won! In case of a draw return Draw!.*
+ex: rps('scissors','paper') // Player 1 won!
+```html
+<script>
+const rps = (p1, p2) => {
+
+    switch (p1 + p2) {
+        case "paperrock":
+            return "Player 1 won!";
+        case "rockscissors":
+            return "Player 1 won!"
+        case "scissorspaper":
+            return "Player 1 won!"
+        case "paperscissors":
+            return "Player 2 won!";
+        case "scissorsrock":
+            return "Player 2 won!"
+        case "rockpaper":
+            return "Player 2 won!"
+        default:
+            return "Draw!";
+    }
+};
+</script>
+```
+*Write a function, persistence, that takes in a positive parameter 
+num and returns its multiplicative persistence, which is the number
+of times you must multiply the digits in num until you reach a single digit.*
+ex: 39 --> 3 (because 3*9 = 27, 2*7 = 14, 1*4 = 4 and 4 has only one digit)
+```html
+<script>
+function persistence(num) {
+  let counter = 0;
+  num = num.toString();
+  while (num.length > 1) {
+    counter++;
+    num = num
+      .split('')
+      .map(Number)
+      .reduce((a, b) => a * b)
+      .toString();
+  }
+  return counter;
+}
+</script>
+```
+## 3. JavaScript 3
+## week 3: JavaScript
+
