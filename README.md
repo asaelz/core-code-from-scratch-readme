@@ -428,7 +428,7 @@ function persistence(num) {
 ## 3. JavaScript 3
 ## week 3: JavaScript
 ### Week challenges (Monday)
-1. Who likes it?
+1.Who likes it?
 You probably know the "like" system from Facebook and other pages. People can "like" blog posts, 
 pictures or other items. We want to create the text that should be displayed next to such an item.
 
@@ -457,7 +457,7 @@ likes(['Peter', 'Moninca', 'Luis', 'Mariel']);
 </script>
 ```
 
-2. Bit Counting
+2.Bit Counting
 Write a function that takes an integer as input, and returns the number of bits that are equal 
 to one in the binary representation of that number. You can guarantee that input is non-negative.
 
@@ -472,4 +472,32 @@ var countBits = function(n) {
 };	
 </script>
 ```
+3.Your Order, Please
+Your task is to sort a given string. Each word in the string will contain a single number. 
+This number is the position the word should have in the result.
+## 404
+
+## Week challenges (Tuesday)
+1.Simple Pig Latin
+Move the first letter of each word to the end of it, then add "ay" to the end of the word. 
+Leave punctuation marks untouched.
+*pigIt('Pig latin is cool'); // igPay atinlay siay oolcay*
+# 404
+
+2.Count the number of Duplicates
+Write a function that will return the count of distinct case-insensitive 
+alphabetic characters and numeric digits that occur more than once in the input string. 
+The input string can be assumed to contain only alphabets (both uppercase and lowercase) 
+and numeric digits.
+# 404
+
+3.Decode the Morse code 
+Your task is to implement a function that would take the morse code as input 
+and return a decoded human-readable string.
+
+For example:
+*decodeMorse('.... . -.--   .--- ..- -.. .')
+//should return "HEY JUDE"*
+# 404
+
 
