@@ -354,6 +354,7 @@ fakeBin("38");
 ```
 
 ## Week 2 Challenges (Thursday)
+### Remove All Exclamation Marks From The End Of Sentence
 *Exclamation marks series #2: 
 Remove all exclamation marks from the end of sentence*
 ```html
@@ -364,6 +365,7 @@ function remove (str) {
 }
 </script>
 ```
+## Vowel Remover 
 *Create a function called shortcut to remove 
 the lowercase vowels (a, e, i, o, u ) in a given string.*
 ex: "hello"     -->  "hll"
@@ -375,8 +377,8 @@ function shortcut (string) {
 </script>
 ```
 
-*Rock Paper Scissors 
-Let's play! You have to return which player won! In case of a draw return Draw!.*
+## Rock Paper Scissors 
+*Let's play! You have to return which player won! In case of a draw return Draw!.*
 ex: rps('scissors','paper') // Player 1 won!
 ```html
 <script>
@@ -401,6 +403,7 @@ const rps = (p1, p2) => {
 };
 </script>
 ```
+## Persistent Bugger 
 *Write a function, persistence, that takes in a positive parameter 
 num and returns its multiplicative persistence, which is the number
 of times you must multiply the digits in num until you reach a single digit.*
