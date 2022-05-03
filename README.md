@@ -427,4 +427,49 @@ function persistence(num) {
 ```
 ## 3. JavaScript 3
 ## week 3: JavaScript
+### Week challenges (Monday)
+1. Who likes it?
+You probably know the "like" system from Facebook and other pages. People can "like" blog posts, 
+pictures or other items. We want to create the text that should be displayed next to such an item.
+
+Implement the function which takes an array containing the names of people that like an item. 
+It must return the display text as shown in the examples:
+Ex: ["Peter"] -->  "Peter likes this"
+
+```html
+<script>
+function likes(names) {
+ switch(names.length) {
+      case 0:
+      return 'no one likes this';
+      case 1:
+      return names[0] + ' likes this';
+      case 2:
+      return names[0] +' and ' + names[1] + ' like this';
+      case 3:
+      return names[0] +', ' + names[1] +  ' and '+ names[2] + ' like this';
+      default:
+      return names[0] + ', ' + names[1] + ' and '+ (names.length - 2) + ' others like this'; 
+  }
+}
+
+likes(['Peter', 'Moninca', 'Luis', 'Mariel']);
+</script>
+```
+
+2. Bit Counting
+Write a function that takes an integer as input, and returns the number of bits that are equal 
+to one in the binary representation of that number. You can guarantee that input is non-negative.
+
+Example: The binary representation of 1234 is 10011010010, so the function should return 5 in this case.
+
+```html
+<script>
+var countBits = function(n) {
+  // Program Me
+    let binary = n.toString(2);
+    return parseInt(binary.split("1").length -1);
+};	
+</script>
+```
 
