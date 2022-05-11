@@ -503,7 +503,8 @@ For example:
 ### Week challenges (Thursday)
 3. 1st Core Challenge :rocket:
 Challenge description 
-**Let’s write our Mission Statement!** In **one paragraph**, please answer to the next 5 questions:
+**Let’s write our Mission Statement!** In **one paragraph**, 
+please answer to the next 5 questions:
 
 1. Who are you?
 2. What background do you have?
