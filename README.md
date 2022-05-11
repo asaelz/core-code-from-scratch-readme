@@ -175,7 +175,7 @@ else if (n < 1000 && n !=100 && n % 10 == 0 ) {
 ![alt text](images/logo.png)
 ### introduction to *codewars* 
 
-### Kata 1. Multiply **:muscle:**
+### Kata 1. Multiply 
 ```html
 <script>
 function multiply(a, b){
@@ -184,7 +184,7 @@ function multiply(a, b){
 </script>
 ```
 
-### Kata 2. ASCII Total :ok_hand:
+### Kata 2. ASCII Total 
 ### You'll be given a string, and have to return the sum of all characters as an int. 
 The function should be able to handle all ASCII characters.
 ### example: uniTotal("a") == 97 uniTotal("aaa") == 291
@@ -200,7 +200,7 @@ return suma;
 </script>
 ```
 
-### Kata 3. Char From ASCII Value :+1:
+### Kata 3. Char From ASCII Value 
 ### Write a function get_char() / getChar() which takes a number and 
 returns the corresponding ASCII char for that value.
 ### example: get_char(65) should return 'A'
@@ -214,7 +214,7 @@ getChar(5);
 </script>
 ```
 
-### Kata 4. Binary Addition :muscle:
+### Kata 4. Binary Addition 
 ### Implement a function that adds two numbers together and returns their sum in binary. 
 The conversion can be done before, or after the addition.
 *The binary number returned should be a string.*
@@ -228,7 +228,7 @@ function addBinary(a,b) {
 ```
 
 
-### Kata 5. Student's Final Grade :sparkles:
+### Kata 5. Student's Final Grade 
 ### Create a function finalGrade, which calculates the final grade of a 
 student depending on two parameters: a grade for the exam and a number of completed projects.
 
