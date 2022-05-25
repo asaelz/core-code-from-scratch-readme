@@ -1,7 +1,7 @@
 <h1 align="center">Bootcamp: Code from Scratch 🚀</h1>
 
 <p align="center">
-<img src="/images/logo.png">
+<img src="/images/corecode.png">
 </p>
 
 ## Table of content
