@@ -1,3 +1,5 @@
+## Week 1: introduction to programming and Javascript
+
 ## 1. introduction to programming and Javascript
 ## Week 1: Tuesday 
 ## Interpreted And Compiled Programming Languages
