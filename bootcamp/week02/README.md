@@ -1,8 +1,7 @@
 ## Week 2: JavaScript
-
-## 2. JavaScript
+![alt text](/images/week2.png)
 ## Week Challenges (Tuesday)
-![alt text](/images/logo.png)
+![alt text](/images/wars.png)
 ### introduction to *codewars* 
 
 ### Kata 1. Multiply 

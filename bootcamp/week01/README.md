@@ -1,4 +1,5 @@
 ## Week 1: introduction to programming and Javascript
+![alt text](/images/week1.png)
 
 ## 1. introduction to programming and Javascript
 ## Week 1: Tuesday 
