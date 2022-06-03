@@ -1,5 +1,5 @@
 ## week 3: JavaScript
-
+![alt text](/images/week3.png)
 
 ## 3. JavaScript 3
 ### Week challenges (Monday)
